@@ -19,13 +19,13 @@ class Robot:
     returnvalue = f'******Building an {self.name}******'
     returnvalue += f'\n{self.name} traverses with the system of: '
     for i in self.traversal:
-      returnvalue+="\n"+i
+      returnvalue+="\n●"+i
     returnvalue += f'\n{self.name} has these parts: '
     for i in self.parts:
-      returnvalue+="\n"+i
+      returnvalue+="\n●"+i
     returnvalue += f'\nAnd {self.name} uses the detection system of: '
     for i in self.detection:
-      returnvalue+="\n"+i
+      returnvalue+="\n●"+i
     returnvalue+="\n"
     return returnvalue
 
