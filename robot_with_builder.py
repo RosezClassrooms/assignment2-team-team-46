@@ -46,6 +46,8 @@ class Robot:
 # Concrete classes for componenets
 # In a real application, there would be an endless list of these, each one
 #   composing additional subcomponents
+
+
 class BipedalLegs:
   def __str__(self):
     return "two legs"
