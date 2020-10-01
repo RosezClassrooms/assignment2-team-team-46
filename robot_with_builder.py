@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod  # For Builder classes
 
-
 # Doesn't need an endless list of arguments when initialized
 class Robot:
   # Uses a lot of flag logic here:  Is that necessary?
